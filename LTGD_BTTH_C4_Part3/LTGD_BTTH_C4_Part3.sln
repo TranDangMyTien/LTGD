@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTGD_BTTH_C4_Part3", "LTGD_BTTH_C4_Part3\LTGD_BTTH_C4_Part3.csproj", "{CA1426B7-C84A-41E1-A6D2-743D55D6514B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA1426B7-C84A-41E1-A6D2-743D55D6514B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1426B7-C84A-41E1-A6D2-743D55D6514B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1426B7-C84A-41E1-A6D2-743D55D6514B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1426B7-C84A-41E1-A6D2-743D55D6514B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC696319-87FE-4506-9080-15C874083B70}
+	EndGlobalSection
+EndGlobal

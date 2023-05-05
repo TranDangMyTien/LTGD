@@ -1,0 +1,16 @@
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.exe
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.deps.json
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.runtimeconfig.json
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.runtimeconfig.dev.json
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.dll
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\bin\Debug\netcoreapp3.1\Editor.pdb
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.csproj.AssemblyReference.cache
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.Form1.resources
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.csproj.GenerateResource.cache
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.GeneratedMSBuildEditorConfig.editorconfig
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.AssemblyInfoInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.AssemblyInfo.cs
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.csproj.CoreCompileInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.dll
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.pdb
+D:\LapTrinhGiaoDien\BAITAP\Editor\Editor\obj\Debug\netcoreapp3.1\Editor.genruntimeconfig.cache

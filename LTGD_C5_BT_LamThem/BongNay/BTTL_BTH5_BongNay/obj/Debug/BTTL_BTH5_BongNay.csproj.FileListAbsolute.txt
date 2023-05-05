@@ -1,0 +1,11 @@
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\bin\Debug\BTTL_BTH5_BongNay.exe.config
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\bin\Debug\BTTL_BTH5_BongNay.exe
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\bin\Debug\BTTL_BTH5_BongNay.pdb
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.csproj.AssemblyReference.cache
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.csproj.SuggestedBindingRedirects.cache
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.Form1.resources
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.Properties.Resources.resources
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.csproj.GenerateResource.cache
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.csproj.CoreCompileInputs.cache
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.exe
+D:\BTTL_BTH5_BongNay\BTTL_BTH5_BongNay\obj\Debug\BTTL_BTH5_BongNay.pdb

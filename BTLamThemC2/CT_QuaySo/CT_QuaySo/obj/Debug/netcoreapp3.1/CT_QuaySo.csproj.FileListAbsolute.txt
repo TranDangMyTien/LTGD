@@ -1,0 +1,16 @@
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.exe
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.deps.json
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.runtimeconfig.json
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.runtimeconfig.dev.json
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.dll
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\bin\Debug\netcoreapp3.1\CT_QuaySo.pdb
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.csproj.AssemblyReference.cache
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.Form1.resources
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.csproj.GenerateResource.cache
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.GeneratedMSBuildEditorConfig.editorconfig
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.AssemblyInfoInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.AssemblyInfo.cs
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.csproj.CoreCompileInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.dll
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.pdb
+D:\LapTrinhGiaoDien\BAITAP\CT_QuaySo\CT_QuaySo\obj\Debug\netcoreapp3.1\CT_QuaySo.genruntimeconfig.cache

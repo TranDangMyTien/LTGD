@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ChuyenMaASCII/1.0.0": {
+        "runtime": {
+          "ChuyenMaASCII.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChuyenMaASCII/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

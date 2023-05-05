@@ -1,0 +1,11 @@
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\bin\Debug\ThongKe_BTTL_BTH6.exe.config
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\bin\Debug\ThongKe_BTTL_BTH6.exe
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\bin\Debug\ThongKe_BTTL_BTH6.pdb
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.csproj.AssemblyReference.cache
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.csproj.SuggestedBindingRedirects.cache
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.Form1.resources
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.Properties.Resources.resources
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.csproj.GenerateResource.cache
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.csproj.CoreCompileInputs.cache
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.exe
+D:\ThongKe_BTTL_BTH6\ThongKe_BTTL_BTH6\obj\Debug\ThongKe_BTTL_BTH6.pdb

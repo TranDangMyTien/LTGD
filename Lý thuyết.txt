@@ -1,0 +1,184 @@
+---------------------CHUYỂN ĐỔI KIỂU DỮ LIỆU VÀ ÉP KIỂU ------------------
+	1.PHƯƠNG THỨC Parse
+- Sử dụng khá phổ biến khi chúng ta muốn chuyển đổi một chuỗi sang một kiểu dữ liệu tương ứng.
+Boolean.Parse dùng để chuyển về kiểu Boolean
+Int32.Parse dùng để chuyển về kiểu Int 32
+Double.Parse dùng để chuyển chuỗi về kiểu Double
+VD: 
+int a = Int32.Parse("123"); //a sẽ mang giá trị 123
+float b = Float.Parse("20.7"); //b sẽ mang giá trị 20.7
+bool c = Boolean.Parse("true"); //c sẽ mang giá trị true
+- Nếu như chuỗi chúng ta truyền vào là rỗng, không đúng định dạng hoặc vượt quá giá trị cho phép thì chúng ta sẽ nhận được các Exception tương ứng.
+VD: 
+int a = Int32.Parse(“Hello”); //sai định dạng, FormatException 
+byte b = Byte.Parse(“10000000000”); //quá giới hạn, OverflowException 
+bool c = Boolean.Parse(null); //tham số là null, ArgumentNullException
+	2.PHƯƠNG THỨC TryParse
+- Là phương thức được tích hợp sẵn trong các lớp kiểu dữ liệu cơ bản của C#. Tuy nhiên, cú pháp của TryParse có phần khác với Parse. Cụ thể, tham số thứ nhất của TryParse là chuỗi cần chuyển đổi và tham số thứ hai là biến sẽ chứa giá trị đã được chuyển đổi, biến thứ hai này phải được đánh dấu là out (để cho biến là chúng ta sẽ truyền tham chiếu)
+VD: 
+int a; 
+Int32.TryParse(“123”, out a); //a sẽ mang giá trị 123  
+bool b; 
+Boolean.TryParse(“false”, out b); //b sẽ mang giá trị false 
+- Phương thức TryParse sẽ thực thi nhanh hơn phương thức Parse vì TryParse không ném ra ngoại lệ
+	3. LỚP Convert 
+- Là một lớp tiện ích trong C# cung cấp cho chúng ta rất nhiều phương thức tĩnh khác nhau để chuyển đổi từ một kiểu dữ liệu này sang kiểu dữ liệu khác. Tham số mà các phương thức trong Convert nhận không nhất thiết phải là chuỗi mà có thể ở nhiều kiểu dữ liệu khác nhau (int, bool, double…).
+VD: 
+int a = Convert.ToInt32("123"); //chuyển chuỗi 123 sang số nguyên
+bool b = Convert.ToBoolean(27); //chuyển số 27 sang kiểu bool
+- Các phương thức trong lớp Convert sẽ trả về giá trị mặc định nếu như tham số truyền vào là null. Còn trong các trường hợp sai định dạng hoặc vượt quá giới hạn thì các phương thức đó sẽ ném ra các ngoại lệ tương tự như phương thức Parse. 
+VD: 
+bool a = Convert.ToBoolean("hello"); //FormatException
+int b = Convert.ToInt32("123456787654"); //OverflowException
+double d = Convert.ToDouble(null); //trả về giá trị mặc định
+	4. Casting (Ép kiểu)
+- Ép kiểu là cách chúng ta có thể sử dụng khi muốn chuyển đổi giữa các kiểu dữ liệu có tính chất tương tự nhau (thường là số).
+VD: 
+int a = 100;
+float b = a; //chuyển đổi ngầm định, b = 100
+int c = (int)b; //chuyển đổi rõ ràng, c = 100
+- Ngoài ra, đối với các giá trị được lưu trong kiểu tổng quát Object (bằng cách boxing) thì chúng ta có thể ép kiểu đưa về kiểu dữ liệu ban đầu
+VD: 
+int a = 100;
+object b = a; //boxing, b là kiểu tham chiếu chứa giá trị 100
+int c = (int)b; //unboxing, c mang giá trị 100
+- Ép kiểu chỉ được sử dụng khi chúng ta biết rõ rằng đối tượng đó chứa kiểu dữ liệu tương ứng với kiểu mà ta cần chuyển tới. Ví dụ như các trường hợp sau sẽ là các lỗi cú pháp trong lập trình:
+VD: 
+string a = "1234";
+int b = (int)a; //lỗi, không thể ép kiểu chuỗi sang kiểu số
+bool c = true;
+double d = (double)c; //lỗi, không thể ép kiểu bool sang kiểu double
+-------------------- Sự khác biệt giữa int, Int16, Int32 và Int64 ------------------
+   Int16 -- (-32,768 to +32,767)
+ 
+   Int32 -- (-2,147,483,648 to +2,147,483,647)
+ 
+   Int64 -- (-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
+
+int và Int32 thực sự là đồng nghĩa; int sẽ trông quen thuộc hơn một chút, Int32 làm cho 32 bit rõ ràng hơn đối với những người đọc mã của bạn. 
+Int16: 2 byte
+Int32 và int: 4 byte
+Int64 : 8 byte
+------------------------- EXCEPTION ------------------
+VD: Tự quăng và lỗi format
+	try
+            {
+                if (txtKyTu.Text == "")
+                    throw new Exception("Phải nhập dữ liệu");
+                char kt = char.Parse(txtKyTu.Text);
+                txtKQ1.Text = string.Format("{0}", (int)kt);
+
+            }
+       catch (FormatException)
+            {
+                MessageBox.Show("Phải nhập ký tự!");
+            }
+       catch (Exception ex) //Có này thì cái throw new Exception "Phải nhập dữ liệu" mới diễn ra 
+            {
+                MessageBox.Show(ex.Message);
+            }
+VD: Lỗi vượt quá dữ liệu 
+	catch (DivideByZeroException
+VD: Lỗi chia cho 0 
+	 catch (DivideByZeroException)
+-------------------------- MESSAGEBOX -------------------------
+	- Loại 1: Chỉ có thông tin 
+VD: MessageBox.Show("Xin chào! Tôi là C#");
+	- Loại 2: Có thông tin và tiêu đề 
+VD: MessageBox.Show("Xin chào! Tôi là C#","Thông báo"); (Tiêu đề là thông báo) 
+	- Loại 3: Có thông tin, tiêu đề, nút bấm : MessageBoxButtons.<loại nút>
+	 + AbortRetryIgnore, OK, OKCancel, RetryCancel, YesNo
+VD: MessageBox.Show("Xin chào! Tôi là C#", "Thông báo", MessageBoxButtons.AbortRetryIgnore);
+	- Loại 4: Có thông tin, tiêu đề, nút bấm và icon 
+	 + Để thêm vào icon ta thêm tham số kiểu enum là MessageBoxIcon.<loại icon>, có nhiều loại nhưng phổ biến là Warning (tam giác vàng có dấu chấm than), Error (hình tròn đỏ có chữ X), Information (hình tròn xanh lam có chữ i), Question (hình tròn lam có dấu chấm hỏi).
+VD: MessageBox.Show("Xin chào! Tôi là C#", "Thông báo, MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+--------------------- string.Format() ------------------------- 
+- String.Format() là phương thức định dạng chuỗi xuất hiện từ phiên bản đầu tiên của C# và vẫn còn tiếp tục được sử dụng và giới thiệu trong các sách dạy lập trình C#.
+VD: 
+var name = "Donald Trump";
+var town = "Washington DC";
+var age = 18;
+var message = string.Format("My name is {0}. I'm from {1}. I'm {2} years old", name, town, age);
+Trong chuỗi trên, {0}, {1}, {2} được gọi là các placeholder. Giá trị của các biến sẽ được thay thế vào đúng vị trí tương ứng với placeholder: name là biến đầu tiên => số 0 => giá trị của nó sẽ điền vào chỗ {0}. Tương tự với các biến còn lại.
+VD: 
+kq = string.Format("Phương trình có 2 nghiệm x1 = {0:0.00}, x2 = {1: 0.00}", x1, x2);
+//x1 sẽ là ngiệm của {0} và x2 là nghiệm của {1} 0.00 định dạng số nguyên lấy 2 chữ số thập phân 
+------------------- CHUỖI KÝ TỰ STRING TRONG C# (SHARP) ------------------
+- Chuỗi là một tập hợp các ký tự sắp xếp có vị trí, nó chỉnh là một mảng các ký tự, kiểu dữ liệu chuỗi đó là string, lớp biểu diễn các chuỗi là System.String
+VD: 
+string sExample = "Xin chào";       // Khai báo và khởi tạo chuỗi
+sExample += " các bạn";             // Nối chuỗi +=, trả về "Xin chào các bạn"
+sExample = sExample + "!";          // Nối chuỗi +, trả về "Xin chào các bạn!"
+- Chuỗi như là mảng mà phần tử mảng là các ký tự, nên có thể truy cập phần tử mảng bằng indexer để đọc ký tự:
+VD: char c = sExample[1];               // c= 'i'
+------------ Viết chuỗi nguyên bản với ký hiệu @ trong C# --------------
+- Khi viết chuỗi trong cặp dấu nháy kép "", thì các ký tự đặt biệt được xử lý với ký hiệu \
+VD: string s = "C:\\Abc\\xyz"; // Nếu viết string s = "C:\Abc\xyz"; sẽ lỗi
+Nội dung thực tế của chuỗi là C:\Abc\xyz
+- Nếu muốn viết chuỗi cố định, nội dung nguyên bản - cho biết sẽ không dùng \ để xử lý ký tự đặc biệt, thì thêm @ vào đầu chuỗi:
+VD: string s = @"Ký tự \ được dùng để chèn ký tự đặc biệt như \n, \r";
+- Bằng ký hiệu @ chuỗi viết thế nào thì nội dung thực tế sẽ như vậy, ngoại trừ hai ký tự "" chuyển thành một ký tự ""
+VD: string s = "Anh ấy nói, ""Đây là C#"""; //~ Anh ấy nói "Đây là C#"
+- Ngoài ra bạn có thể viết chuỗi trên nhiều dòng với ký hiệu @
+VD: string s = @"Xin chào các bạn
+                 Tôi đang học C#";
+---------------- Chèn thêm biểu thức vào chuỗi với ký hiệu $ trong C# --------------
+- Khi viết chuỗi có ký tự $ phía trước, thì trong chuỗi đó có thể chèn các biểu thức vào chỗ có cặp {}
+VD: 
+int a = 10;
+int b = 2;
+string s = $"Kết quả {a}/{b} là {a/b}";  // "Kết quả 10/2 là 5"
+- Ngoài ra bạn có thể căn lề, định dạng số, ngày tháng ... tương tự như chuỗi định dạng
+VD: 
+Console.WriteLine($"{"VòngLặp",10} {"Chẵn/Lẻ", -5}");
+for (int i = 8; i < 15; i++)
+{
+    string chanle = (i%2 == 0) ? "Chẵn" : "Lẻ";
+    Console.WriteLine($"{i,10} {chanle, -5}");
+}
+
+Kết quả:
+   VòngLặp Chẵn/Lẻ
+         8 Chẵn
+         9 Lẻ
+        10 Chẵn
+        11 Lẻ
+        12 Chẵn
+        13 Lẻ
+        14 Chẵn
+----------------------- Một số phương thức làm việc với chuỗi C# ---------------------
+string stringA =  "Xin chào,";
+string stringB = "các bạn!";
+	-Concat: phương thức tĩnh, nối các chuỗi liệt kê ở tham số lại với nhau
+VD: string s = String.Concat(stringA, stringB);    // s = "Xin chào,các bạn!"
+	-Format: 
+VD: string s = String.Format("Chào {0}, {0} ơi, hôm nay ngày {1} rồi!", "Nam", DateTime.Now.Day); // s = "Chào Nam, Nam hôm nay ngày 20 rồi!"
+	-IndexOf: Tìm vị trí (đầu tiên) của ký tự hoặc chuỗi ký tự trong chuỗi
+	-LastIndexOf: Tìm vị trí (cuối) của ký tự hoặc chuỗi ký tự trong chuỗi
+	-Insert: Tạo chuỗi = chèn chuỗi này vào trong chuỗi khác, vị trí chèn cần chỉ ra
+VD: var s = stringA.Insert(8, " tất cả"); // "Xin chào tất cả,"
+	-PadLeft: Tạo chuỗi mới từ chuỗi cũ, độ dài chuỗi mới chỉ ra - nếu độ dài chuỗi mới lớn hơn chuỗi cũ thì các ký tự phía đầu được chèn khoảng trắng hoặc ký tự chỉ định.
+VD: 
+string s1 = "Abc";
+string s2 = s1.PadLeft(6);        //  "   Abc"
+string s3 = s1.PadLeft(6, '*');   //  "***Abc"
+	-PadRight: Tương tự PadLeft nhưng chèn khoảng trắng bên phải
+	-Replace: Tìm và thay thế trong chuỗi
+VD: var s = stringA.Replace("chào", "CHÀO");   // "Xin CHÀO,"
+	-Split: Trả về mảng các chuỗi con được chia từ chuỗi gốc bởi ký tự chia chỉ định, chuỗi chia chỉ định
+VD: var s = "Nguyễn Văn A".Split(' '); // s tương đương mảng {"Nguyễn","Văn", "A"}
+	-ToLower: Sinh chuỗi mới bằng cách chuyển các ký tự thành chữ thường
+	-ToUpper: Sinh chuỗi mới bằng cách chuyển các ký tự thành chữ in
+	-Trim: Sinh chuỗi mới bằng cách loại bỏ khoảng trắng (hoặc chỉ định) ở đầu và cuối
+	-Substring :Lấy ra chuỗi con từ chuỗi chính - chuỗi con lấy từ vị trí chỉ ra đến cuối hoặc theo độ dài
+VD:  
+string s = stringA.Substring(4); // s = "chào,"
+string x = stringA.Substring(0, 3); // s = "Xin" (dài 3)
+-------------------------- Sử dụng StringBuilder ------------------------
+	-Khi sử dụng biến kiểu string để thực hiện các thao tác nhằm mục đích cuối cùng thu được chuỗi theo yêu cầu, trong quá trình đó bạn có thể sử dụng nhiều biến kiểu string, để phục vụ các phép toán như nối chuỗi, tìm kiếm, thay thế ... Mỗi khi khởi tạo một biến kiểu string, bạn đã cấp phát một lượng bộ nhớ để lưu trữ chuỗi - thường thì bộ nhớ này nhiều hơn những gì bạn cần.
+	-Để thi hành tối ưu hơn về tốc độ, về sử dụng bộ nhớ có thể dùng tới đối tượng StringBuilder ở namespace System.Text (thêm vào đầu file using System.Text;)
+VD: 
+StringBuilder stringBuilder = new StringBuilder();
+stringBuilder.Append("Xin chào các bạn - xuanthulab.net");
+stringBuilder.Replace("Xin chào", "XIN CHÀO");
+Console.WriteLine(stringBuilder); // Out: XIN CHÀO các bạn - xuanthulab.net
