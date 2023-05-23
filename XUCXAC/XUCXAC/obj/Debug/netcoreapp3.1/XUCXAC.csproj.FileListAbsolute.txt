@@ -1,0 +1,51 @@
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.exe
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.deps.json
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.json
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.dev.json
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.dll
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.pdb
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.AssemblyReference.cache
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Form1.resources
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Properties.Resources.resources
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.GenerateResource.cache
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.GeneratedMSBuildEditorConfig.editorconfig
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfoInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfo.cs
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.CoreCompileInputs.cache
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.dll
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.pdb
+D:\LapTrinhGiaoDien\BAITAP\OnTap\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.genruntimeconfig.cache
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.exe
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.deps.json
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.json
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.dev.json
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.dll
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.pdb
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.AssemblyReference.cache
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Form1.resources
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Properties.Resources.resources
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.GenerateResource.cache
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfoInputs.cache
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfo.cs
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.CoreCompileInputs.cache
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.dll
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.pdb
+C:\Users\mytie\AppData\Local\Temp\Zalo Temp\28f604dd2d4660742bfedb4e5f9264d4~\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.genruntimeconfig.cache
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.exe
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.deps.json
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.json
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.runtimeconfig.dev.json
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.dll
+D:\XUCXAC\XUCXAC\bin\Debug\netcoreapp3.1\XUCXAC.pdb
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.AssemblyReference.cache
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Form1.resources
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.Properties.Resources.resources
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.GenerateResource.cache
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.GeneratedMSBuildEditorConfig.editorconfig
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfoInputs.cache
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.AssemblyInfo.cs
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.csproj.CoreCompileInputs.cache
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.dll
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.pdb
+D:\XUCXAC\XUCXAC\obj\Debug\netcoreapp3.1\XUCXAC.genruntimeconfig.cache
